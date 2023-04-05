@@ -1,0 +1,227 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0 auto;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* _________________________________________________________________ */
+html {
+    font-family: 'Solway', serif;
+    background-color: #415a77;
+    color: #e0e1dd;
+}
+
+h1 {
+    
+    font-family: 'Righteous', cursive;
+    font-size: 4em;
+    letter-spacing: 3px;
+}
+
+div {
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 1em;
+
+}
+.text{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.p {
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 0.8em;
+    letter-spacing: 1px;
+    border: 1px solid #e0e1dd;
+    border-radius: 10px;
+}
+
+.key {
+    border: 2px solid #e0e1dd;
+    width: 76%;
+}
+
+button {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    margin: 5px;
+    padding: 1em;
+    border: 1px solid cyan;
+    background-color: #e0e1dd;
+    border-radius: 10px;
+
+}
+
+button:hover {
+    background-color: #415a77;
+    color: #e0e1dd;
+    border: 1px solid #e0e1dd;
+}
+
+.numberRow button {
+    width: 3.5em;
+}
+
+#backSpace {
+    width: 8em;
+    height: 3.2em;
+    padding: 0.5em;
+}
+
+.spaceRow button {
+    /* padding: 10px 50px; */
+}
+
+#space {
+    width: 30em;
+}
+
+.medium {
+    width: 6em
+}
+
+.large {
+    width: 8.5em
+}
+
+.xlarge {
+    width: 11em
+}
+
+.super {
+    width: 5em;
+}
+
+.rShift{
+    width:1em;
+}
